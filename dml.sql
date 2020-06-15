@@ -27,6 +27,8 @@ INSERT INTO banco (numero, nome) VALUES (263,'Banco Cacique S.A.'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (473,'Banco Caixa Geral - Brasil S.A.'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (412,'Banco Capital S.A.'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (40,'Banco Cargill S.A.'::VARCHAR(50));
+INSERT INTO banco (numero, nome) VALUES (745,'Banco Citibank S.A.'::VARCHAR(50));
+INSERT INTO banco (numero, nome) VALUES (241,'Banco Clássico S.A.'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (215,'Banco Comercial e de Investimento Sudameris S.A.'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (756,'Banco Cooperativo do Brasil S.A. - BANCOOB'::VARCHAR(50));
 INSERT INTO banco (numero, nome) VALUES (748,'Banco Cooperativo Sicredi S.A.'::VARCHAR(50));
