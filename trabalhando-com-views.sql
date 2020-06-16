@@ -21,15 +21,24 @@ CREATE OR REPLACE VIEW vw_bancos_2 (banco_numero,banco_nome, banco_ativo) AS (
 	FROM banco
 );
 
-SELECT banco
+SELECT banco_numero,banco_nome,banco_ativo
+FROM vw_bancos_2;
 
 INSERT INTO vw_bancos_2 (banco_numero,banco_ativo)
 FROM vw_bancos_2;
 
+INSERT INTO vw_bancos_2 (banco_numero,banco_nome, banco_ativo)
+VALUES(139, 'BANCO REINALDO COUTO S.A', TRUE);
 
+SELECT banco_numero,banco_nome, banco_ativo 
+FROM vw_bancos_2 WHERE banco_numero = 139;
 
+SELECT numero,nome,ativo 
+FROM banco WHERE numero = 139;
 
-
+UPDATE vw_bancos_2 
+SET banco_ativo = FALSE 
+WHERE banco_numero = 51;
 
 CREATE OR REPLACE VIEW vw_bancos_agencias (
     banco_numero,
